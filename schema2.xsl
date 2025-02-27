@@ -3,7 +3,7 @@
 	<xsl:output omit-xml-declaration="yes" indent="yes"/>
 	<xsl:strip-space elements="*"/>
 
-	<!--<xsl:include href="xmlsize_3.xsl"/>-->
+	<xsl:include href="xmlsize_3.xsl"/>
 
 	<!-- Creates the body of the finding aid.-->
 	<xsl:template match="/">
@@ -27,7 +27,7 @@
 						<td align="left" valign="top">
 							<br/>
 							<div align="right">
-								<!--<xsl:call-template name="toggle"/>-->
+								<xsl:call-template name="toggle"/>
 							</div>
 						</td>
 					</tr>
